@@ -77,7 +77,7 @@ TEMPLATES = [
 WSGI_APPLICATION = "push_core.wsgi.application"
 
 
-FCM_DJANGO_SETTINGS = {
+XFCM_DJANGO_SETTINGS = {
     "FCM_SERVER_KEY": 
     "MIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQD6+TJjjN0kWCTw \
    V4p2h7WRsvFO3PMwJm4Ur83Ig9fJ8eMrXMYvS5P7NjVxwaHd2h/9Q3YhwiTIX9aP \
@@ -107,6 +107,9 @@ FCM_DJANGO_SETTINGS = {
    HODmZzLiXzyo0mU2A3D5JU0"
 
 }
+
+FCM_DJANGO_SETTINGS = {
+    "FCM_SERVER_KEY": "AIzaSyCTIDvk2ryZIh_D0i_7xsu4VyC0bQuL52E"}
 
 # Initialize firebase app
 FIREBASE_APP = initialize_app()

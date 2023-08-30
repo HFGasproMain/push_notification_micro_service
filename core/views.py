@@ -52,7 +52,7 @@ class GasNotificationView(views.APIView):
             message = f'Hello {user_name}, your gas usage is {gas_usage} and remaining is {gas_remaining}. \
             Your latest gas reading is {gas_reading}. Love from Homefort'
 
-         # Create a Message object
+        # Create a Message object
         message = Message(data={
             'gas_usage': gas_usage,
             'gas_remaining': gas_remaining,
